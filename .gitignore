@@ -40,3 +40,9 @@ app-example
 ios/build/
 android/build/
 android/app/build/
+
+# Android
+android/
+
+# iOS
+ios/
