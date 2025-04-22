@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Atta",
+    "slug": "Atta",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "linking": {
+      "scheme": "Atta",
+      "prefixes": ["https://auth.expo.io/@tat22444/Atta", "atta://"]
+    },
+    "scheme": "Atta",
+    "platforms": ["ios", "android", "web"],
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "extra": {
+      "googleMapsApiKey": "AIzaSyAy0m4eC_DwrwW4x8mouclfTMsqdMsElec",
+      "firebaseWebClientId": "823481101265-j4vknpoh096rig29e929jjo3fvsp24jn.apps.googleusercontent.com"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tat22444.Atta"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tat22444.Atta"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "entryPoint": "node_modules/expo-router/entry"
+  }
+}
